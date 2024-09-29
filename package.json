@@ -4,6 +4,8 @@
     "backend:install": "cd contacts-server && npm install",
     "frontend:build": "cd contacts-complete && npm run build",
     "backend:build": "cd contacts-server && npm run build",
-    "frontend:deploy": "cd contacts-complete && npm run deploy"
+    "frontend:deploy": "cd contacts-complete && npm run deploy",
+    "backend:zip": "cd contacts-server && npm run zip",
+    "backend:deploy": "cd contacts-server && eb deploy"
   }
 }
