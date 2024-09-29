@@ -3,6 +3,7 @@
     "frontend:install": "cd contacts-complete && npm install",
     "backend:install": "cd contacts-server && npm install",
     "frontend:build": "cd contacts-complete && npm run build",
-    "backend:build": "cd contacts-server && npm run build"
+    "backend:build": "cd contacts-server && npm run build",
+    "frontend:deploy": "cd contacts-complete && npm run deploy"
   }
 }
