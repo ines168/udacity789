@@ -14,6 +14,7 @@ jobs:
     steps:
       - node/install
       - checkout
+      - aws-cli/setup
       # install dependencies in both apps
       - run:
           name: Frontend install
