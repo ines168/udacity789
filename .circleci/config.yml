@@ -38,6 +38,10 @@ jobs:
             npm run backend:zip
       - eb/setup
       - run:
+          name: Backend EB
+          command: |
+            npm run backend:eb
+      - run:
           name: Backend Deploy
           command: |
             npm run backend:deploy

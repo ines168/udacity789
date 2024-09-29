@@ -6,6 +6,7 @@
     "backend:build": "cd contacts-server && npm run build",
     "frontend:deploy": "cd contacts-complete && npm run deploy",
     "backend:zip": "cd contacts-server && npm run zip",
-    "backend:deploy": "cd contacts-server && eb init -p node.js && eb deploy contacts-server-dev"
+    "backend:eb": "cd contacts-server && eb init -p node.js",
+    "backend:deploy": "cd contacts-server && eb deploy contacts-server-dev"
   }
 }
