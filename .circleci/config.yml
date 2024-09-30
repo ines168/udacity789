@@ -41,9 +41,6 @@ jobs:
           name: Backend EB
           command: |
             npm run backend:eb
-            until $(eb status contacts-server-dev | grep -q "Ready")
-            echo "Waiting for environment to be ready..."
-            sleep 15
       - run:
           name: Backend Deploy
           command: |
